@@ -1,0 +1,6 @@
+
+/*Bucle*/
+@for $i from 2 through 4 {
+  h#{$i} {color: #fff}
+}
+

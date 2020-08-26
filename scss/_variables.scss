@@ -1,0 +1,20 @@
+/* Variables colores y font*/
+
+	$font: 'Poppins', sans-serif;
+	$gray-bg: #333333; 
+	$neon: #7dce94;
+	$deep-blue: #101357;
+
+body {
+	background-color: $gray-bg;
+}
+
+#texto-noticias {
+	  background-color: $neon;
+	  color: $deep-blue;
+
+}
+
+#titulo-producciones {
+	color: $neon;
+}

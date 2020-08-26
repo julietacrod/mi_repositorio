@@ -1,0 +1,56 @@
+/*----------Producciones-----------*/
+
+@keyframes animate__slideInRight {
+  from {margin-right: 0%}
+  to {margin-right:30%}
+}
+.producciones-container {
+	background-color:#333333;
+	width:100vw;
+}
+
+#titulo-producciones{
+	font-size:1em ;
+	text-align: center;
+	padding-top: 10px;
+	color: #7dce94;
+	animation: animate__slideInRight; 
+	animation-duration: 2s; 
+	animation-delay: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+	animation-timing-function: ease-in;
+}
+
+
+.producciones {
+	display:flex;
+	flex-flow:row wrap;
+	justify-content: center;
+
+}
+
+
+
+/*------------Video Galeria---------*/
+.videogal{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+}
+
+#videogal-uno {
+	padding:10px;
+	
+}
+
+#videogal-dos {
+
+	padding: 10px;
+}
+#videogal-tres {
+
+	padding: 10px;
+}
